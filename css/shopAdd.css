@@ -1,0 +1,19 @@
+
+div#shopAdd{
+	margin:10px auto;
+	margin-right:100px;
+	width: 500px;
+	height: 500px;
+	padding:10px;
+	box-sizing: border-box;
+	text-align:left;
+	font-size:20px;
+}
+div#shopAdd>form input,select{
+	height: 30px;
+	margin:20px 20px 0;
+}
+a{
+	position:absolute;
+	right:270px;
+}

@@ -1,0 +1,12 @@
+body{
+	background: url("images/1440x500上_nuzg.jpg");
+}
+table td,th{
+	border:1px solid rgba(0,0,0,0.5);
+	vertical-align: center;
+	text-align: center;
+}
+table{
+	border:1px dashed gray;
+	margin:10px auto;
+}

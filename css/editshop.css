@@ -1,0 +1,28 @@
+body{
+	background:url("img/6.jpg") ;
+	background-size: 100%;
+	position:relative;
+}
+div#shopAdd{
+	margin:20px auto;
+	margin-right:100px;
+	width:500px;
+	height:700px;
+	padding:10px;
+	box-sizing:border-box;
+	text-align:left;
+	font-size:20px;
+}
+div#shopAdd>form input,select{
+	height:30px;
+	margin:20px 20px 0;
+}
+h4{
+	color:green;
+}
+a{
+	position:absolute;
+	right:250px;
+	top:100px;
+	left:8px;
+}

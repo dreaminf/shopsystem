@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>用户修改密码操作</title>
+	<link rel="stylesheet" href="../css/userchangepwd.css">
+</head>
+<style>
+	body{
+	background: url("images/layout-bg.png");
+	background-repeat:no-repeat;
+}
+</style>
+<body>
+<h2 style="color:#E04095;">修改密码页面</h2>
+	<div id="changepwd">
+		<form action="../php/lib/changepwd.php" method="post">
+			旧&nbsp;&nbsp;&nbsp;密&nbsp;&nbsp;&nbsp;码：<input type="password" class="pwdk" name="oldpwd" required autofocus><br>
+			<span></span>
+			新&nbsp;&nbsp;&nbsp;密&nbsp;&nbsp;&nbsp;码：<input type="password" class="pwdk show-hidd" id ="newpwd1" name="newpwd" disabled><br>
+			<span></span>
+			确认新密码：<input type="password" class="pwdk show-hidd"  id ="newpwd2" name="newpwd" disabled><br>
+			<span></span>
+			<input type="hidden" name="type" value="userchangepwd">
+			<input type="submit" id="changepwdbtn" value="提交" style="background-color:#E04095;cursor: pointer;"disabled>
+		</form>
+	</div>
+	<script src="../js/jquery-1.11.3.js"></script>
+	<script src="../js/updatepwd.js"></script>
+</body>
+</html>

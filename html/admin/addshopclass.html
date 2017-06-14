@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>添加商品分类</title>
+</head>
+<style>
+body{
+background:url("../images/green_Bw.png");
+}
+</style>
+<body>
+	<h2 style="background-color:#D80D8D;margin-top:-10px;">添加商品分类</h2>
+	<div id="shopclass">
+		<form action="../../php/lib/shopclass.php" method="post">
+			商品分类名称：<input type="text"  name="shopclass" required><br>
+			<input type="hidden" name="type" value="addshopclass">
+			<input type="submit"   value="提交" style="background-color:#D80D8D;">
+		</form>
+	</div>
+</body>
+</html>

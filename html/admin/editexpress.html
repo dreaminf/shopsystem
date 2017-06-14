@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>修改快递</title>
+</head>
+<style>
+body{
+background:url("../images/green_Bw.png");
+}
+#expressclass{
+	margin-top: 170px;
+	margin-left: 553px;
+}
+</style>
+<body>
+	<h2 style="background-color:#D80D8D;margin-top:-10px;">修改快递</h2>
+	<div id="expressclass">
+		<form action="../../php/lib/express.php" method="post">
+			<input type="hidden" name="id" id="id">
+			快递公司名称：<input type="text" id="editexpressclass" name="expressclass" required><br><br>
+			电&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;话:&nbsp;<input type="phone" id="tel" name="tel"><br><br>
+			基&nbsp;&nbsp;&nbsp;本&nbsp;&nbsp;&nbsp;价&nbsp;&nbsp;格:&nbsp;<input type="number" id="baseprice" name="baseprice" min="0" max="20" step="0.01"><br><br>
+			计&nbsp;&nbsp;件&nbsp;&nbsp;价&nbsp;&nbsp;&nbsp;格:&nbsp;&nbsp;<input type="number" id="addprice" name="addprice" min="0" max="10" step="0.01"><br><br>
+			状&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;态：&nbsp;<select name="status" id="status">
+					<option value=2 style="background-color:#D80D8D;">合作中</option>
+					<option value=1 style="background-color:#D80D8D;">洽谈中</option>
+					<option value=0 style="background-color:#D80D8D;">曾合作</option>
+			</select><br>
+			<input type="hidden" name="type" value="editexpressclass">
+			<input type="submit"   value="提交" style="background-color:#D80D8D;">
+		</form>
+	</div>
+	<script src="../../js/jquery-1.11.3.js"></script>
+	<script src="../../js/editexpress.js"></script>
+</body>
+</html>

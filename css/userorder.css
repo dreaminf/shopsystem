@@ -1,0 +1,47 @@
+
+#max{
+	width: 100%;
+	box-sizing: border-box;
+	border-top:1px solid gray;
+	padding: 40px;
+	text-align: center;
+}
+#max:after{
+	content:"";
+	display: block;
+	width: 100%;
+	clear:both;
+}
+
+.order{
+	float: left;
+}
+#showbtn{
+	width: 20%;
+	height: 200px;
+	border-right: 1px solid gray;
+	text-align: center;
+}
+#showbtn>h4{
+	margin-top:5px;
+	border-radius: 20px;
+	cursor: pointer;
+	font-size: 18px;
+	font-weight: 400;
+	width: 120px;
+	text-align: center;
+	line-height: 75px;
+	background-color:rgba(204,213,214,0.5);
+}
+#showbtn>h4:hover{
+	background-color: rgba(240,0,0,0.5);
+}
+#showunorder,#showalorder{
+	display: none;
+}
+.every:after{
+	content: "";
+	display: block;
+	clear:both;
+	width: 100%;
+}

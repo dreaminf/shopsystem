@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>卖家管理中心</title>
+	<link rel="stylesheet" href="../../css/sellermanage.css">
+</head>
+<style>
+body{
+	background:url("../images/ff.jpg");
+}
+	
+</style>
+<body>
+	<h3 style="background-color:#D80D8D; margin-top:-5px;">卖家管理中心</h3>
+		<button id="addshop"style="background-color:#D80D8D;">添加商品</button>
+		<button id="showorder"style="background-color:#D80D8D;" onclick="location.href='sellershoworder.html' ">显示订单</button>
+		<button id="quit"style="background-color:#D80D8D;">退出登录</button>
+	<div id="showshop">
+		<table border cellspacing="0" cellpadding="20">
+			<thead>
+				<tr>
+					<th>商品编号</th>
+					<th>商品名称</th>
+					<th>商品描述</th>
+					<th>数量</th>
+					<th>商品价格</th>
+					<th>商品类别</th>
+					<th>图片</th>
+					<th>状态</th>
+					<th>操作</th>
+				</tr>
+			</thead>
+			<tbody>
+				
+			</tbody>
+
+		</table>
+	</div>
+	<script src="../../js/jquery-1.11.3.js"></script>
+	<script src="../../js/sellermanage.js"></script>
+</body>
+</html>

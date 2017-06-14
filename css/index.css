@@ -1,0 +1,60 @@
+div#account_query{
+	width:600px;
+	height: 40px;
+	background-color: rgba(204,213,214,0.5);
+	font-size: 16px;
+	text-align: right;
+	line-height: 40px;
+}
+div#account_query>input{
+	background-color: skyblue;
+}
+div#account_query>span:first-child{
+	background-color: rgba(134,134,134,0.5);
+	font-size: 14px;
+	color: red;
+	text-align: center;
+}
+div#account_login_register{
+	width: 200px;
+	height: 40px;
+	background-color: rgba(204,213,214,0.5);
+	color:#acf;
+	text-align: right;
+	line-height: 40px;
+}
+div#account_login_register>a{
+	text-decoration: none;
+	color:black;
+}
+div#account_login_register>a:hover{
+	color:red;
+}
+div#shop{
+	width: 90%;
+	margin:20px auto;
+	outline: 1px solid blue;
+	text-align: center;
+}
+div#shop>div{
+	float: left;
+	width: 33%;
+	text-align: center;
+}
+div#page{
+	text-align: center;
+	margin:20px auto;
+}
+#page a{
+	text-decoration: none;
+	margin-left:30px;
+}
+#page a:hover{
+	color:red;
+}
+.clearfix:after{
+	content: "";
+	display: block;
+	clear:both;
+	width: 100%;
+}

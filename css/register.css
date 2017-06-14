@@ -1,0 +1,78 @@
+/*register.css*/
+*{
+	margin:0;
+	padding: 0;
+	font-size: 16px;
+}
+body{
+	background: url("");
+    background-color: #FDFBFE;
+}
+#maxRegister{
+	margin-top: 114px;
+	margin-left: 660px;
+	width: 500px;
+	height:350px;
+	text-align: 50px;
+	line-height: 40px;
+	font-size: 25px;
+}
+#tupian{
+	width: 500px;
+	height: 400px;
+	left: 0px;
+	top: 114px;
+	position: absolute;
+}
+#wenzi{
+	width: 307px;
+	height: 49px;
+	margin-left: 75px;
+	margin-top: 15px;
+}
+#wen{
+	 top: 77px;
+	 font-size: 27px;
+     left: 775px;
+     color: #4C4C4C;
+     position: relative;
+
+}
+div#maxRegister>form>span{
+	width:100px;
+	height: 20px;
+	font-size: 16px;
+	color:white;
+}
+div input{
+	width: 200px;
+	height: 25px;
+}
+input[name="sex"]{
+	width: 40px;
+	height: 15px;
+}
+input#register{
+	width: 200px;
+	height: 35px;
+	background-color: #F10180;
+	margin-left: 78px;
+}
+#a{
+	width: 550px;
+	height: 42px;
+	margin-left: 529px;
+	margin-top: 0px;
+}
+.a1{
+	width: 550px;
+	height: 45px;
+}
+.but{
+	background-color: #F10180;
+} 
+#jplogin{
+	width: 200px;
+	height: 35px;
+	margin-left:78px;
+}

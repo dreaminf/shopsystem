@@ -1,0 +1,30 @@
+
+div#forgetpwd{
+	width: 50%;
+	margin-left:482px;
+	margin-top:125px;
+	text-align: left;
+}
+#btn{
+	margin-top:10px;
+	margin-left:80px;
+	width: 70px;
+	height: 30px;
+}
+#pwdreset{
+	margin-top:10px;
+	margin-left:20px;
+	width: 70px;
+	height: 30px;
+}
+.show{
+	line-height: 40px;
+}
+.showmsg{
+	font-size: 16px;
+	color:red;
+	background-color: green;
+}
+#dl{
+	text-direction:none;
+}

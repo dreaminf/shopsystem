@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>shop_商品</title>
+	<link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+	<div id="account_query" >
+		<span id="username"></span>
+		<span class="msg">用户；欢迎您回来！</span>
+		<span class="symb">|</span>
+		<input type="button" id="person-center" value="个人中心">
+		<input type="button" value="我的购物车" onclick="location.href='./html/shopcar.html'">
+		<input type="button" id="myorder" value="我的订单">
+		<input type="button" id="quit-login" value="退出登录">
+	</div>
+	<div id="account_login_register">
+		<a href="html/login.html">已有账户，请登录</a>
+		<span>|</span>
+		<a href="html/register.html">请注册</a>
+	</div>
+	<div>
+	</div>
+	<div id="shop" class="clearfix"></div>
+	<div id="page" class="clearfix"></div>
+	<script src="js/jquery-1.11.3.js"></script>
+	<script src="js/index.js"></script>
+</body>
+</html>

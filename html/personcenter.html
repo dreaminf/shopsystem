@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<style>
+	body{
+		background: url("images/layout-bg.png") -351px -10px;
+		background-repeat: no-repeat;
+	}
+	#aa{
+		width: 176px;
+		height: 47px;
+		margin-top: -25px;
+		margin-left: 1100px;
+		color: #E3007E;
+		font-size: 20px;
+		font-weight: bold;
+	}
+	ul>li{
+		list-style: none;
+	}
+.k{
+	width: 400px;
+	margin-left: 240px;
+	margin-top: 105px;
+	
+}
+
+#kk{
+	margin-top: -270px;
+	margin-left: 393px;
+}
+</style>
+<body>
+	<h2></h2>
+	<p style="top:100px;left:294px;position: absolute;color:skyblue;">我的信息</p>
+	<ul class="k">
+		<li>用户名:</li>
+		<li>真实姓名:</li>
+		<li>手机:</li>
+		<li>邮箱:</li>
+		<li>地址:</li>
+		<li>性别:</li>
+		<li>余额:￥:</li>
+	</ul>
+	<div id="kk">
+	<button onclick="location.href='../index.html'" style="color:#E3007E; cursor: pointer;">返回商品</button>
+	<button onclick="location.href='../php/lib/logout.php'" style="color:#E3007E; cursor: pointer;">退出登录</button>
+	<button onclick="location.href='./useraccountupdate.html'" style="color:#E3007E; cursor: pointer;">修改资料</button>
+	<button onclick="location.href='userupdatepwd.html'" style="color:#E3007E; cursor: pointer;">修改密码</button>
+	<button id="recharge" style="color:#E3007E; cursor: pointer;">充值</button><br>
+		<!-- recharge layout-->
+		<input type="number" name="addMoney" id="addMoney" max="10000" min="10" required style="display: none">
+		<input type="submit" id="doaddmoney" value="确认充值" style="display: none" >
+		<input type="button" id="quitcharge" value="取消充值" style="display: none">
+		</div>
+		<div id="aa">
+			唯品会欢迎您
+		</div>
+	
+	<script src="../js/jquery-1.11.3.js"></script>
+	<script type="text/javascript" src="../js/person.js"></script>
+</body>
+</html>

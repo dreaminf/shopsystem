@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>后台管理中心</title>
+	<link rel="stylesheet" href="../../css/admin.css">
+</head>
+<body>
+	<h4 style="background-color:#D80D8D;margin-top:-10px;">后台管理中心</h4>
+ 	<div class="block">
+		亲，请点击<a href="sellerRegsiterLogin.html">卖家注册</a><br>
+	</div>
+	<button id="logout" style="width:130px;height:30px;">退出超级管理员</button>
+	<div id="max" class="clearfix">
+		<div id="fenlei" class="maxinner">
+			<input id="showshop"  class="btn" type="button" value="商品分类"><br>
+			<input id="showexpress"  class="btn" type="button" value="快递管理">
+		</div>
+		<div id="show" class="maxinner" >
+			<table id="shop_class" border cellspacing="0" cellpadding="10px">
+				<caption>商品分类管理</caption>
+				<input  id="addclass" type="button" value="添加商品分类" onclick="location.href='addshopclass.html'">
+				<thead>
+					<tr>
+						<th>商品类别序号</th>
+						<th>商品类别名称</th>
+						<th>操作</th>
+					</tr>
+				</thead>
+				<tbody id="tableShopClass"></tbody>
+			</table>
+			<table id="express"  border cellspacing="0" cellpadding="10px" >
+				<caption>快递管理</caption>
+				<input  id ="addexpress" type="button" value="添加快递" onclick="location.href='addexpress.html'">
+				<thead>
+					<tr>
+						<th>快递序号</th>
+						<th>快递公司名称</th>
+						<th>电话</th>
+						<th>基准价格(元/单)</th>
+						<th>计数价格(元/数量单位)</th>
+						<th>状态</th>
+						<th>操作</th>
+					</tr>
+				</thead>
+				<tbody id="tableexpressClass"></tbody>
+			</table>
+		</div>
+	</div>
+	<script src="../../js/jquery-1.11.3.js"></script>
+	<script src="../../js/admin.js"></script>
+</body>
+</html>

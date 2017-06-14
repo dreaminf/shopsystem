@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>卖家注册登录页面</title>
+	<link rel="stylesheet" href="../../css/sellerRegisterLogin.css">
+
+</head>
+<style>
+	body{
+		background: #FDFBFE;
+	}
+</style>
+<body>
+	<h4 style="background-color:#D80D8D;margin-top:2px;">卖家注册登录</h4>
+	<div>
+		<img src="img/logo.png" class="img1">
+	</div>
+	<img src="img/1.png" class="img2">
+	<div id="cent">
+	<div id="loginRegister">
+		<div id="tabtag">
+			<h4 style="background-color:#D80D8D;">卖家注册&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|</h4>
+			<h4 style="background-color:#D80D8D;">卖家登录</h4>
+		</div>
+		<div id="content">
+			<div id="surperRegister" class="item" style="z-index: 2">
+				<form action="../../php/lib/selleraccount.php" method="post" class="from1">
+					&nbsp;&nbsp;&nbsp;用户名：<input class="superitem" type="text" name="sellername" required class="input1" style="width:190px;"><br>
+					&nbsp;&nbsp;&nbsp;密&nbsp;&nbsp;&nbsp;码： <input class="superitem" type="password" name="sellerpwd" required style="width:190px;"><br>
+					确认密码：<input class="superitem" type="password" name="sellerpwd" required style="width: 190px;"><br>
+					真实姓名：<input type="text" name="realname" style="width:190px;height: 27px;"><br>
+					<input type="submit" name="sellerRegister" value="卖家用户注册" style="width: 100px; height: 30px;background-color:#D80D8D;">
+				</form>
+			</div>
+			<div id="surperLogin" class="item" style="opacity:0">
+				<form action="../../php/lib/selleraccount.php" method="post">
+					用户名：<input class="superitem" type="text" name="sellername" required style="width:190px;"><br>
+					密&nbsp;&nbsp;&nbsp;&nbsp;码：<input class="superitem" type="password" name="sellerpwd" required style="width:190px;"><br>
+					<input type="submit" name="sellerlogin" value="卖家用户登录" style="width: 100px; height: 30px;background-color:#D80D8D;">
+				</form>
+			</div>
+		</div>
+	</div>
+	</div>
+	<script src="../../js/jquery-1.11.3.js"></script>
+	<script src="../../js/sellerRegsiterLogin.js"></script>
+</body>
+</html>

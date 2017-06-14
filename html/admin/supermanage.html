@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>后台管理页面_注册账号_登录</title>
+	<link rel="stylesheet" href="../../css/supermanage.css">
+</head>
+<style>
+	body{
+		background: url("../images/layout-bg.png") no-repeat;
+	}
+</style>
+<body>
+	<h4 style="background-color:#D80D8D;margin-top:0px;">后台管理页面_注册账号_登录</h4>
+	<h4>
+		<a href="sellerRegsiterLogin.html"></a>
+	</h4>
+	<div id="loginRegister">
+		<div id="tabtag">
+			<h4>注册&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;</h4>
+			<h4>登录</h4>
+		</div>
+		<div id="content">
+			<div id="surperRegister" class="item" style="z-index: 2">
+				<form action="../../php/lib/supermanage.php" method="post">
+					&nbsp;&nbsp;&nbsp;用户名：<input class="superitem" type="text" name="supername" required  style="width:170px;"><br>
+					&nbsp;&nbsp;&nbsp;密&nbsp;&nbsp;&nbsp;码：<input class="superitem" type="password" name="superpwd" required style="width:170px;"><br>
+					确认密码：<input class="superitem" type="password" name="superpwd" required style="width:168px;"><br><br>
+					<input type="submit" name="surperRegister" value="超级管理用户注册" style="background-color:#D80D8D;">
+				</form>
+			</div>
+			<div id="surperLogin" class="item" style="opacity:0">
+				<form action="../../php/lib/supermanage.php" method="post">
+					&nbsp;&nbsp;&nbsp;用户名：<input class="superitem" type="text" name="supername" required style="width:170px;"><br>
+					&nbsp;&nbsp;密&nbsp;&nbsp;&nbsp;&nbsp;码：<input class="superitem" type="password" name="superpwd" required style="width:170px;"><br><br>
+					<input type="submit" name="surperlogin" value="超级管理用户登录" style="width:150px;height:35px;background-color:#D80D8D;">
+				</form>
+			</div>
+		</div>
+	</div>
+	<script src="../../js/jquery-1.11.3.js"></script>
+	<script src="../../js/supermange.js"></script>
+</body>
+</html>

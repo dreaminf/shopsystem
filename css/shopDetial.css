@@ -1,0 +1,16 @@
+div#detial{
+	width: 60%;
+	margin:20px auto;
+	text-align: center;
+	outline: 1px solid red;
+	
+}
+div#detial>div{
+	float: left;
+}
+div#detial:after{
+	content: "";
+	clear:both;
+	display: block;
+	width: 100%;
+}

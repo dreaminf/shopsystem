@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>login_page</title>
+	<link rel="stylesheet" href="../css/login.css">
+</head>
+<style>
+	#aaaa:hover{
+		color:red;
+	}
+</style>
+<body>
+	<h3>
+		<a href="admin/sellerRegsiterLogin.html"id="aaaa"style="top:13px; left:171px; position: relative;text-decoration: none;">卖家登录</a>
+	</h3>
+	<div id="tupian">
+		<img src="images/weipin.png" style="cursor: pointer;">
+	</div>
+	<div id="a">
+		<img class="a1" src="images/wei.png" style="cursor: pointer;">
+	</div>
+	<h1 id="wen">欢迎登录</h1>
+<p id="houtaiaccount" class="htzh" style="cursor: pointer;">登录后台管理账户</p><br>
+<p id="registeraccount" class="zhuce" style="cursor: pointer;">没有账户！先注册</p>
+	<div id="maxLogin">
+		<form action="../php/lib/login.php" method="POST">
+			用户名：<input class="logindata" type="text" name="user_login"  id="user_login" autofocus><br>
+			密&nbsp;&nbsp;码：<input class="logindata"  id="pwd_login" type="password" name="pwd_login"><br>
+			<input type="submit" id="login" value="登&nbsp;&nbsp;&nbsp;录" disabled>
+			<input type="button" id="jpregister">
+			<input type="button"  id="adminAccount">
+		</form>
+		<a href="pwd/forget.html"  id="mima">忘记密码</a>
+	</div>
+	<script src="../js/login.js"></script>
+</body>
+</html>

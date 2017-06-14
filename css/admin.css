@@ -1,0 +1,55 @@
+#max{
+	width: 80%;
+	margin:20px auto;
+	border-top:1px solid gray;
+
+	padding:20px;
+	box-sizing: border-box;
+}
+.maxinner{
+	float: left;
+}
+.clearfix:after{
+	content:"";
+	display: block;
+	clear:both;
+	width: 100%;
+}
+#fenlei{
+	width: 20%;
+	text-align: center;
+}
+#show{
+	width: 80%;
+	padding: 10px;
+	box-sizing: border-box;
+	border-left: 1px solid gray;
+	/*border-bottom: 1px solid gray;*/
+
+}
+.btn{
+	width: 80%;
+	height: 40px;
+	border-radius: 15px;
+	line-height: 35px;
+	margin: 10px auto;
+	background:gray;
+	color: white;
+	font-size: 22px;
+	font-weight: 300;
+	cursor: pointer;
+}
+.btn:hover{
+	background: red;
+}
+#shop_class{
+	margin:20px auto;
+}
+
+#express{
+	margin:20px auto;
+	display: none;
+}
+#addexpress{
+	display: none;
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>忘记密码</title>
+	<link rel="stylesheet" href="../../css/forget.css">
+</head>
+<style>
+body{
+	background:url("../images/layout-bg.png")-539px 0px;
+	background-repeat:no-repeat;
+	
+}
+</style>
+<body>
+	<h2>忘记密码找回密码</h2>
+	<a href="../login.html" id="dl">返回登录</a>
+	<div id="forgetpwd">
+		<span class="show">&nbsp;&nbsp;&nbsp;用户名：</span><input type="text" id="name" placeholder="请输入用户名" autofocus><span class="showmsg"></span><br>
+		<span class="show">手机号码：</span><input type="text" id="phone" placeholder="请输入手机号码" disabled><span class="showmsg"></span><br>
+		<span class="show">&nbsp;&nbsp;&nbsp;新密码：</span><input type="password"  id="newpwd" placeholder="6~18位,数字字母下划线" disabled><span class="showmsg"></span><br>
+		<span class="show">确认密码：</span><input type="password" id="checkpwd" placeholder="需与新密码一致" disabled><span class="showmsg"></span><br>
+		<input type="button" id="btn" style="background-color:#F90A8C;cursor:pointer;" value="确认提交" disabled>
+		<input type="button" id="pwdreset" style="background-color:#F90A8C;cursor:pointer;" value="密码重置" disabled>
+
+	</div>
+	<script src="../../js/jquery-1.11.3.js"></script>
+	<script src="../../js/forget.js"></script>
+</body>
+</html>

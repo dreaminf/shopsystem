@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>卖家编辑商品</title>
+	<link rel="stylesheet" href="../../css/editshop.css">
+</head>
+<body>
+	<h4 style="background-color:#D80D8D;margin-top:-10px;">商品编辑页面</h4>
+	<div id="shopAdd">
+		<form action="../../php/lib/shopAdd.php" method="post" enctype="multipart/form-data" name="myform">
+			<input type="text" name="id" style="display: none">
+			商品名称：<input type="text" name="name" required class="input1" style="width:220px"><br>
+			商品描述：<br><textarea name="description" id="" cols="46" rows="10" required></textarea><br>
+			商品数量<input type="number" name="number" min="1" max="200000" required style="width:240px"><br>
+			商品价格：<span>￥</span><input type="number" name="price" max=10000 min=0 step=0.01 required style="width:200px"><br>
+			商品类别：<select name="type" id="type" required></select><br>
+			图片：<img src="" alt="" id="imgclick" width="100px">
+			<input type="file" name="img" style="display: none"><br>
+			商品状态：<input type="radio" class="status" name="status" value="1" >出售中
+			<input type="radio" class="status" name ="status" value="0" >未上架<br>
+			<input type="submit"style="background-color:#D80D8D;" value="提交" name="eidtshop"  style="width:100px">
+		</form>
+	</div>
+	<a href="sellermanage.html" >返回卖家管理中心</a>
+	<script src="../../js/jquery-1.11.3.js"></script>
+	<script src="../../js/editshop.js"></script>
+</body>
+</html>

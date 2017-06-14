@@ -1,0 +1,34 @@
+
+body{
+background:url("../html/images/aa.jpg") 609px 0px;
+background-repeat:no-repeat;
+}
+div#order{
+	margin-left:20px;
+	margin-top:50px;
+	width: 80%;
+	height:400px;
+	text-align: center;
+}
+#inputaddress{
+	visibility: hidden;
+}
+#affirm{
+	visibility: hidden;
+}
+
+#newname{
+	visibility: hidden;
+}
+#newnamebtn{
+	visibility: hidden;
+}
+#cash{
+	visibility: hidden;
+}
+#cashbtn{
+	visibility: hidden;
+}
+#quitbtn{
+	visibility: hidden;
+}
